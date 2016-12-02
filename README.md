@@ -1,7 +1,5 @@
 # LaTeX template for TUM theses
 
-[![PDF Status](https://www.sharelatex.com/github/repos/fwalch/tum-thesis-latex/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/fwalch/tum-thesis-latex/builds/latest/output.pdf)
-
 This is a LaTeX template created according to the guidelines for TUM informatics theses in SS 2013. **Always check the [current formatting guidelines][thesis-guidelines] before you hand in.** See [`build/main.pdf`][sample-pdf] for an example PDF created with this template.
 
 Note: Because of copyright considerations, TUM logos are not included in this template and have to be downloaded separately (see instructions below).
@@ -34,6 +32,13 @@ This template is licensed under a [Creative Commons Attribution-ShareAlike 4.0 I
  * Any derived template has to use the [same][license] or a [compatible license][license-compatible].
 
 The license **applies only to the template**; there are no restrictions on the resulting PDF file or the contents of your thesis.
+
+## Changes in this fork
+
+ * Merged [this](https://github.com/Drag-On/tum-thesis-latex) fork up to commit 5e9087e.
+ * Merged [this](https://github.com/jpbernius/tum-thesis-latex/commit/2f322688ef82b3dd61ef638e7f938da5add8cac6) commit.
+   + Removed the `.latex.yml` file and the badge.
+ * Removed `/build`.
 
 [issue]: https://github.com/fwalch/tum-thesis-latex/issues
 [latex-wikibook]: https://en.wikibooks.org/wiki/LaTeX
